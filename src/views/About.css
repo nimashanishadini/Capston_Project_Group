@@ -1,0 +1,125 @@
+.Body{
+    margin-left: 0px;
+    margin-top: -50px;
+    background-color:darkgrey;
+    border-radius: 20px;
+}
+
+.box1{
+    text-align: center;
+    padding-top: 90px;
+    size: 14px;
+}
+
+.box2{
+    text-align: center;
+    padding: auto;
+}
+
+.box2 .our-tutors{
+    font-size:20px;
+}
+
+.box3{
+    text-align: center;
+}
+.box3 .target-audiance{
+        font-size: 20px;
+}
+
+.box4 .navBar{
+    text-align: center;
+}
+
+
+.footer{
+    text-align: center;
+    font-size:10px ;
+    color: black;
+}
+
+.for{
+    text-align: center;
+}
+
+.row{
+    color: green;
+}
+
+.section_padding{
+    padding: 4rem 4rem ;
+}
+.fotter{
+    background-color:gainsboro;
+    width: 1500px;
+    height: 300px;
+    border-radius: 20px;
+}
+.sb_fotter{
+    display: flex;
+    flex-direction: column;
+}
+
+.sb_fotter_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.sb_fotter_links_div{
+    width: 150p;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: black;
+}
+
+a{
+    color: rgb(13, 13, 114);
+    flex-direction: column;
+   
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+}
+.socialmedia .item{
+    flex-direction: column;
+    display: flex;
+}
+
+.sb_fotter_links_div h4{
+    font-size: 15px;
+    line-height: 15px;
+   margin-bottom: 1.9rem;
+   color: black;
+}
+
+.sb_fotter_links_div p{
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0.5rem;
+    cursor: pointer;
+    color: black;
+
+}
+  
+.sb_fotter_links_div{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width:550px) {
+    .sb_fotter_heading h1{
+        font-size: 34px;
+        line-height: 42px;
+
+    }
+    
+}

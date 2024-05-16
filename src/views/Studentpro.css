@@ -1,0 +1,61 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 0 rem;
+    height: 90hv;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgb(247, 247, 166) ;
+    border-radius: 20px;
+    justify-content: space-between;
+   
+
+    
+}
+
+.logo{
+    text-align: center;
+    padding: 20;
+    color: green;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.logo .img1{
+    width: 70px;
+    height: fit-content;
+}
+
+.logo .icon{
+   font-size: 1.4rem; 
+}
+
+.menu-list{
+    display: flex;
+    flex-direction: column;
+    grid-area: 20px;
+}
+
+.menu-list .item{
+   
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: grey;
+    cursor: pointer;
+    
+}
+
+.menu-list .item:hover{
+    background:yellowgreen ;
+    color: red;
+
+}
+
