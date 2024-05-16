@@ -200,7 +200,7 @@ environments.</p>
         </a>
 
         <a href='Terms and Policies'>
-          <p>Terms and Policies</p>
+          <p>Terms and Policies </p>
         </a>
 </div>
 

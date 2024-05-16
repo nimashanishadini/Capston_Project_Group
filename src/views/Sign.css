@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Gotu&display=swap');
+
+
+
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px black rgba(255, 255, 255, 2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    font-family: Gotu;
+    
+   }
+
+.wrapper h1{
+    font-size:20px;
+    color:#58E715 ;
+    font-family: Aclonica;
+    text-align: center;
+}
+
+.wrapper h2{
+    font-size: 25px;
+    text-align: center;
+    color: #808080;
+   
+
+}
+
+.wrapper .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: 10px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(139, 134, 134);
+    border-radius: 20px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+
+
+}
+
+.input-box input::placeholder{
+    color: 	#808080;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 20px;
+    top: 40%;
+    transform: translate(-50%);
+    font-size: 16px;
+    color: black;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: -15px 0 15px;
+
+}
+
+.remember-forgot label input{
+    accent-color:black;
+    margin-right: 4px;
+
+}
+
+.remember-forgot a{
+    color: black;
+    text-decoration: none;
+}
+
+.remember-forgot .a :hover{
+    text-decoration: underline;
+}
+
+.wrapper button{
+    width: 100%;
+    height: 45px;
+    background-color:#36f4f4;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0,0,0);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+}
+
+.title{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    column-gap: 0.1rem;
+    height: 50px;
+}
+
+.title::before, .title::after{
+    content: "";
+    height: 2px;
+    background-color: black;
+    display: black;
+
+}
+
+.si-logo{
+    text-align: center;
+    font-size: 16px;
+    color:#d9d9d9;
+}
+
+.si-logo1{
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+   
+}
+
+.si-logo2 .icon{
+    width: 40px;
+    text-align: center;
+    height: 15px;
+    padding: (10)px;
+    margin: 0 30px;
+    color:black
+}
+
+.wrapper .register-link{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    max-width: 20px 0 15px;
+}
+
+.register-link p a{
+    color: red;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.box2 .logoo{
+    height: 20px;
+    width: 100px;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.logoo{
+    display: flex;
+    align-items: right;
+    size: 500%;
+    column-gap: 8px;
+    float: right;
+ }
+
+ .text .h3{
+    align-items: right;
+    display: flex;
+    float: right;
+    
+    
+ }
